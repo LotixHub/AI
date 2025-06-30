@@ -1,0 +1,86 @@
+{
+  "projectName": "FinalRound AI",
+  "version": "1.0.0",
+  "description": "Manifest for generating parallel universes of development for FinalRound AI.",
+  "universes": [
+    {
+      "name": "Universe-F (Frontend)",
+      "layer": "UI/UX",
+      "description": "Handles all user-facing interfaces and interactions.",
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Provider (State Management)",
+        "Material Design"
+      ],
+      "primaryGoal": "Create a responsive, intuitive, and unified user experience across web and mobile platforms.",
+      "outputArtifacts": [
+        "Flutter Application Codebase"
+      ]
+    },
+    {
+      "name": "Universe-B (Backend)",
+      "layer": "Application & Business Logic",
+      "description": "Microservices-based backend to handle all business logic and API requests.",
+      "techStack": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Pydantic"
+      ],
+      "primaryGoal": "Develop scalable, secure, and independent microservices for each core functionality.",
+      "outputArtifacts": [
+        "FastAPI service code for Auth, User, Resume, Interview, and Feedback."
+      ]
+    },
+    {
+      "name": "Universe-D (Data)",
+      "layer": "Data Storage & Persistence",
+      "description": "Manages all data persistence, including relational, vector, and object storage.",
+      "techStack": [
+        "PostgreSQL",
+        "Pinecone/Weaviate (Vector DB)",
+        "AWS S3",
+        "Redis (Caching)"
+      ],
+      "primaryGoal": "Ensure data integrity, scalability, and fast retrieval.",
+      "outputArtifacts": [
+        "Database Schemas",
+        "Data Migration Scripts"
+      ]
+    },
+    {
+      "name": "Universe-A (AI/ML)",
+      "layer": "Intelligence",
+      "description": "Integration with external AI models for core intelligent features.",
+      "techStack": [
+        "OpenAI API (GPT-4)",
+        "LangChain (Orchestration)",
+        "MLflow (Experiment Tracking)"
+      ],
+      "primaryGoal": "Provide high-quality, real-time AI-driven insights for users.",
+      "outputArtifacts": [
+        "API integration modules",
+        "Prompt engineering templates"
+      ]
+    },
+    {
+      "name": "Universe-I (Infrastructure)",
+      "layer": "Deployment & Operations",
+      "description": "Handles the deployment, scaling, and monitoring of the entire system.",
+      "techStack": [
+        "AWS/GCP",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions (CI/CD)",
+        "Prometheus/Grafana (Monitoring)"
+      ],
+      "primaryGoal": "Automate deployment and ensure high availability and reliability of the platform.",
+      "outputArtifacts": [
+        "Dockerfile(s)",
+        "Kubernetes Manifests (YAML)",
+        "CI/CD Pipeline Scripts"
+      ]
+    }
+  ]
+}
